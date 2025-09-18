@@ -1,103 +1,109 @@
-.main-container {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            padding: 25px;
-            border: 5px solid green;
-            box-sizing: border-box;
-            background-color: #c7f0c7;
-        }
+.container {
+    background-color: #bbedc1;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #017317;
+}
 
-        .top-row {
-            background-color: #add8e6;
-            border: 6px solid blue;
-            display: flex;
-            flex: 1;
-            gap: 10px;
-            padding: 25px;
-        }
+.header {
+    background-color: #add8e6;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #000ef8;
+    display: flex;
+}
 
-        .middle-row {
-            display: flex;
-            flex: 3;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            gap: 0px
-        }
+.header-container {
+    background-color: #ffd5b3;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #fa766c;
+    height: 100px;
+    flex: 1;
+}
 
-        .bottom-row {
-            background-color: #add8e6;
-            border: 6px solid blue;
-            display: flex;
-            flex: 1;
-            gap: 10px;
-            padding: 12px;
-        }
-        
-        .top-left, .top-right {
-            flex: 1;
-            background-color: #fce0c5;
-            border: 6px solid #f78072;
-        }
+.header-container2 {
+    background-color: #ffd5b3;
+    padding: 4px;
+    margin: 10px;
+    border: 5px solid #fa766c;
+    height: 132.5px;
+    flex: 1;
+    display: flex;
+}
 
-        .top-center {
-            display: flex;
-            flex-direction: row;
-            flex: 1;
-            background-color: #fce0c5;
-            border: 6px solid #f78072;
-            padding: 5px;
-        }
-        
-        .top-center-box {
-            flex: 1;
-            border: 6px solid red;
-            background-color: #fac0cb;
-        }
-        
-        .middle-left {
-            flex: 1;
-            background-color: #fabbbb;
-            border: 6px solid #8b0000;
-            margin-right: 12px;
-        }
+.header-container2-content {
+    background-color: #ffb8c4;
+    padding: 10px;
+    margin: 2px;
+    border: 5px solid #fd041b;
+    height: 100px;
+    flex: 1;
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        .middle-right {
-            display: flex;
-            flex-direction: column;
-            flex: 1;
-        }
-        
-        .middle-right-box-up {
-            flex: 1;
-            background-color: #fabbbb;
-            border: 6px solid #8b0000;
-            margin-bottom: 6px;
-        }
+.body {
+    display: flex;
+}
 
-         .middle-right-box-down {
-            flex: 1;
-            background-color: #fabbbb;
-            border: 6px solid #8b0000;
-            margin-top: 6px;
-        }
+.body-container {
+    background-color: #ffb3b5;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #a2252a;
+    flex: 1;
+    height: 300px;
+}
 
-        .bottom-left, .bottom-right {
-            flex: 1;
-            background-color: #d4d4f7;
-            border: 6px solid #6a5acd;
-        }
+.body-container2 {
+    flex: 1;
+    height: 300px;
+}
 
-        .bottom-center {
-            display: flex;
-            flex: 1;
-            gap: 10px;
-        }
-        
-        .bottom-center-box {
-            flex: 1;
-            background-color: #fce0c5;
-            border: 6px solid #f78072;
-        }
+.body-container2-content {
+    background-color: #ffb3b5;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #a2252a;
+    height: 120px;
+    flex: 1;
+}
+
+.footer-container1 {
+    background-color: #dfd9fd;
+    padding: 20px;
+    margin: 2px;
+    border: 5px solid #5b5eb5;
+    flex: 5;
+    height: 100px;
+}
+
+.footer-container2 {
+    background-color: #ffd5b3;
+    padding: 20px;
+    margin: 2px;
+    border: 5px solid #fa766c;
+    flex: 2;
+    height: 100px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #add8e6;
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid #000ef8;
+    display: flex;
+}
